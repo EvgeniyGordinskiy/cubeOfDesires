@@ -19545,13 +19545,17 @@ exports.default = {
       this.form.loading = true;
       _auth2.default.login(this.form.data()).catch(function (errors) {
         _this.form.loading = false;
-        if (!('email' in errors.error) && !('password' in errors.error) && 'message' in errors.error) {
-          {
+        if (typeof errors.error !== 'undefined') {
+          if (!('email' in errors.error) && !('password' in errors.error) && 'message' in errors.error) {
             errors.error['email'] = [];
             errors.error['email'].push(errors.error.message);
+            _this.form.recordErrors(errors.error);
           }
+        } else {
+          console.log(errors.errors);
+
+          _this.form.recordErrors(errors.errors);
         }
-        _this.form.recordErrors(errors.error);
       });
     }
   },

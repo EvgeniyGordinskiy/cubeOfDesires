@@ -38,13 +38,15 @@ export default {
       auth.login(this.form.data())
           .catch((errors) => {
             this.form.loading = false;
-            if(!('email' in errors.error) && !('password' in errors.error) && 'message' in errors.error) {
-              {
+            if(typeof errors.error !== 'undefined') {
+              if(!('email' in errors.error) && !('password' in errors.error) && 'message' in errors.error) {
                 errors.error['email'] = [];
                 errors.error['email'].push(errors.error.message);
+                this.form.recordErrors(errors.error);
               }
+            }else {
+              this.form.recordErrors(errors.errors);
             }
-            this.form.recordErrors(errors.error);
           });
     },
   },
