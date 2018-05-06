@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>video-play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="296.926013" height="526.301641"></rect>
+    </defs>
+    <g id="Full-webdesigns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-us-V4" transform="translate(-1142.000000, -807.000000)">
+            <g id="who-we-are" transform="translate(98.000000, 659.000000)">
+                <g id="phone" transform="translate(1082.500000, 175.500000) rotate(-270.000000) translate(-1082.500000, -175.500000) translate(907.000000, -189.000000)">
+                    <path d="M4,24 L4,709 L4,709 C4,720.045695 12.954305,729 24,729 L331,729 L331,729 C342.045695,729 351,720.045695 351,709 L351,24 L351,24 C351,12.954305 342.045695,4 331,4 L24,4 L24,4 C12.954305,4 4,12.954305 4,24 Z" id="Frame" fill="#F2F2F2"></path>
+                    <rect id="BG-screen" fill="#161616" x="25" y="105" width="305" height="535" rx="10"></rect>
+                    <g id="Bitmap" transform="translate(30.000000, 110.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="#444444" xlink:href="#path-1"></use>
+                            <use fill="#35445A" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <g id="Group-5" transform="translate(148.000000, 343.000000)">
+                        <path d="M30,0 C13.4302286,0 0,13.4302286 0,30 C0,46.5696 13.4302286,60 30,60 C46.5696,60 60,46.5696 60,30 C60,13.4302286 46.5696,0 30,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero" transform="translate(30.000000, 30.000000) rotate(-90.000000) translate(-30.000000, -30.000000) "></path>
+                        <path d="M37.1466343,29.378629 L25.0876889,38.0159482 C24.7522112,38.2551788 24.3617447,38.3775003 23.9702385,38.3775003 C23.6550927,38.3775003 23.3422575,38.2995609 23.054144,38.1428402 C22.4066397,37.7862195 22,37.0871706 22,36.3262994 L22,19.0514205 C22,18.2905493 22.4066397,17.5913801 23.054144,17.2347593 C23.7016484,16.8811455 24.4839676,16.9298576 25.0876889,17.3616514 L37.1466343,25.9988503 C37.6802334,26.3813306 38,27.0141069 38,27.6887396 C38,28.3633723 37.6803489,28.9961487 37.1466343,29.378629 Z" id="Path" fill="#40C9D2" transform="translate(30.000000, 27.688750) rotate(-90.000000) translate(-30.000000, -27.688750) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="625px" height="352px" viewBox="0 0 625 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone-video</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="296.926013" height="526.301641"></rect>
+    </defs>
+    <g id="Full-webdesigns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-us-V4" transform="translate(-816.000000, -659.000000)">
+            <g id="who-we-are" transform="translate(98.000000, 659.000000)">
+                <g id="phone" transform="translate(1082.500000, 175.500000) rotate(-270.000000) translate(-1082.500000, -175.500000) translate(907.000000, -189.000000)">
+                    <rect id="Volume-Down" fill="#D8315B" x="-1.27231559e-13" y="236" width="8" height="25" rx="4"></rect>
+                    <rect id="Volume-Up" fill="#D8315B" x="-1.38555833e-13" y="175" width="8" height="25" rx="4"></rect>
+                    <rect id="Silent" fill="#D8315B" x="-1.50990331e-13" y="105" width="10" height="32" rx="4"></rect>
+                    <path d="M4,24 L4,709 L4,709 C4,720.045695 12.954305,729 24,729 L331,729 L331,729 C342.045695,729 351,720.045695 351,709 L351,24 L351,24 C351,12.954305 342.045695,4 331,4 L24,4 L24,4 C12.954305,4 4,12.954305 4,24 Z" id="Frame" fill="#F2F2F2"></path>
+                    <rect id="BG-screen" fill="#161616" x="25" y="105" width="305" height="535" rx="10"></rect>
+                    <g id="Bitmap" transform="translate(30.000000, 110.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="#444444" xlink:href="#path-1"></use>
+                            <use fill="#35445A" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <circle id="Home-Button" fill="#D8315B" cx="177.5" cy="681.5" r="22.5"></circle>
+                    <rect id="Inner-Button" stroke="#FFFFFF" stroke-width="2" x="169" y="673" width="16" height="16" rx="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

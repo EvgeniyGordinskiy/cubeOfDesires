@@ -1,0 +1,28 @@
+<header class="flex wrap top-header">
+  <div class="user-details">
+    <div class="clearfix">
+      <span class="user-avatar">
+        <img src="../../../../assets/avatar.jpg" alt="">
+      </span>
+      <span class="username">{{username}}<em>{{email}}</em></span>
+    </div>
+  </div>
+  <div class="flex justify-end stretch">
+    <el-button  @click.prevent="logout" size="small"><span class="fa fa-sign-out"></span>Logout</el-button>
+  </div>
+    <!--<el-menu-->
+            <!--class="el-menu-demo mobileMenu flex justify-end stretch"-->
+            <!--mode="horizontal"-->
+            <!--background-color= #00-->
+            <!--text-color="#fff"-->
+            <!--active-text-color="#ffffff">-->
+      <!--<el-submenu  index="1">-->
+        <!--<template slot="title">-->
+          <!--<i class="el-icon-menu"></i>-->
+        <!--</template>-->
+        <!--<el-menu-item index="2-5">-->
+          <!--<el-button  @click.prevent="logout" size="small"><span class="fa fa-sign-out"></span>Logout</el-button>-->
+        <!--</el-menu-item>-->
+      <!--</el-submenu>-->
+    </el-menu>
+</header>

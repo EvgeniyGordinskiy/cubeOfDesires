@@ -1,0 +1,12 @@
+<div class="content-inner questionBox">
+    <div class="answer" v-if="desire">
+        <span>Answer:</span>
+        <p :class="classAnswer">{{answer}}</p>
+    </div>
+    <formv
+            :save="getAnswer"
+            :form="form"
+            btn-text="Ask"
+    >
+    </formv>
+</div>
